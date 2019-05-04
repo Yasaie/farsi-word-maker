@@ -1,0 +1,59 @@
+@import "fonts";
+
+* {
+    font-family: YekanNumbers, Yekan;
+}
+
+body {
+    background: #eee;
+}
+
+#count {
+    text-align: center;
+    margin: 0 0 -15px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    padding: 10px;
+
+    select {
+        flex: 1;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    input {
+        flex: 2;
+        width: 100%;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    select,
+    input {
+        padding: 8px 15px;
+        border: 1px solid #ccc;
+        background: #fafafa;
+        font-size: 20px;
+    }
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    li {
+        margin: 15px 10px;
+        background: #777;
+        color: #fff;
+        padding: 5px 15px;
+        border-radius: 5px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
