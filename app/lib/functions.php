@@ -1,6 +1,6 @@
 <?php
 /**
- * @author      Payam Yasaie <payam@yasaie.ir>
+ * @author      Payam Yasaie
  * @copyright   2019/05/04
  * @package     farsi-word-maker
  */
@@ -9,14 +9,14 @@
  * @author      Payam Yasaie <payam@yasaie.ir>
  * @copyright   2019/05/04
  *
- * @param $arr
- * @param $size
- * @param array $perArr
- * @param int $pos
+ * @param array $arr    array of letters
+ * @param int $size     final size of word
+ * @param array $perArr (optional)
+ * @param int $pos      (optional)
  *
  * @return string
  */
-function makeWords($arr, $size, $perArr = [], $pos = 0)
+function makeWords(array $arr, int $size, array $perArr = [], int $pos = 0) : string
 {
     $arrLen = count($arr);
     $arrVals = array_count_values($arr);

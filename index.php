@@ -1,6 +1,6 @@
 <?php
 /**
- * @author      Payam Yasaie <payam@yasaie.ir>
+ * @author      Payam Yasaie
  * @copyright   2019/05/04
  * @package     farsi-word-maker
  */
